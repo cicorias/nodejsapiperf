@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="SimpleWebApi" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="MainWeb">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=bloghost6h14fb17;AccountKey=fExm2ubaipLT8NUuqBzzbXN1b3b/TOqAiBIDO/Rmr2ICkzCVIWRXrnpqcpP+GTtiOOmMt8sTHncpdEadZIZjNA==" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="cicorias" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCECpzV6tZ3yG8TAZWbcQM7IgwDQYJKoZIhvcNAQEBBQAEggEAjiCDv0lroiuyH49GTIYHkuE9uBc3Ny7F95ri5mdPhItohjHNuZxpn5I3hH10JyOy5eYHspVqe1wOtEv2RmxG8bCgm3Fxtu/gZ0HH13O7g3uleTbgOmGXmi5S/qxbIT+CyOBebnMkceCrSTVWpAr9soFlnh3S5tMSWBSWk0ahJdZCMgr0nU5ntGltndrZK/4J0Yo0mAUog4u5YNrHAJBrOhRuAa4G757AaFb+IJDMKY9ixnBfwQAFIwXnfoztAXf5Z/ycU9v/1DBTy91prTLJ2eO+2KH6XEiBgmfodSX0Umd9cWxoS/QIS3zb+A9yznLxtbwjVBSWJgRamJzU/m4Y4jAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECA8rlFMjo0MlgBCi18QUMdpizxnhyurk5rdk" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2016-08-06T23:59:59.0000000-04:00" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="59C839F33A4BCC0C3CA0E4CB5A7341265CD24234" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+</ServiceConfiguration>

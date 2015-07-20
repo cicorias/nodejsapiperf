@@ -1,0 +1,14 @@
+﻿extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+
+  a(href='/values') Values page 
+
+  button(
+    type='submit'
+    style='width: 100px; height: 25px; background-color: blue;'
+    onclick="if you plan to use single quotes here, use double quotes outer"
+)
