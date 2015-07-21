@@ -5,7 +5,7 @@
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
     <Name>ExpressApp1</Name>
     <RootNamespace>ExpressApp1</RootNamespace>
-    <NameOfLastUsedPublishProfile>nodesjjet</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>nodejsperf</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -31,13 +31,16 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="app-NW.js.bak" />
+    <Compile Include="appMOD1y.js.bak" />
+    <Compile Include="app-jorig.js.bak" />
+    <Compile Include="app-orig - Copy.js.bak" />
     <Compile Include="app.js" />
-    <Compile Include="app-orig.js" />
     <Compile Include="routes\index.js" />
     <Compile Include="routes\users.js" />
     <Compile Include="bin\www" />
     <Compile Include="routes\values.js" />
-    <None Include="nodesjjet.pubxml" />
+    <None Include="nodejsperf.pubxml" />
     <Content Include="package.json" />
     <Content Include="public\stylesheets\style.styl" />
     <Content Include="README.md" />
