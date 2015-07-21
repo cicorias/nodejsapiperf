@@ -35,11 +35,12 @@
     <Compile Include="appMOD1y.js.bak" />
     <Compile Include="app-jorig.js.bak" />
     <Compile Include="app-orig - Copy.js.bak" />
-    <Compile Include="app.js" />
+    <Compile Include="app.js.bak" />
     <Compile Include="routes\index.js" />
     <Compile Include="routes\users.js" />
     <Compile Include="bin\www" />
     <Compile Include="routes\values.js" />
+    <Compile Include="app.js" />
     <None Include="nodejsperf.pubxml" />
     <Content Include="package.json" />
     <Content Include="public\stylesheets\style.styl" />

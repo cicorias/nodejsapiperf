@@ -48,7 +48,7 @@ app.get('/search_test', function(req, res, next) {
 
 var getClientTicket = function(cb) {
 https.request({
-'hostname': 'zzz-api.zzz.com',
+'hostname': 'jettestarmpaas.cloudapp.net',
 'path': '/api/Account/ClientTicket',
 'headers': {
 'JetAPIKey': apiKey
