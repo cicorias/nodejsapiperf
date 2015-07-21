@@ -1,4 +1,6 @@
-﻿if ( process.env.new_relic_app_name )
+﻿
+
+if ( process.env.new_relic_app_name )
     require( 'newrelic' );
 
 
@@ -101,7 +103,7 @@ var getClientTicket = function ( cb ) {
             try {
                 res = JSON.parse( res );
             } catch ( e ) {
-                res = {};
+                res = { ticket:e.message};
             }
             cb( res.ticket );
         } );
